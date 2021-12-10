@@ -1,0 +1,113 @@
+body{
+    background-color: grey;
+}
+
+.hal{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+.header .judul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.header{ 
+    padding: 20px;
+}
+.header ul{
+    padding: 0;
+    margin: 0;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.header a:hover{
+    background-color: black;
+    color: white;
+}
+.foto1{
+    height: 250px;
+    background-image: url(kereta.jpg);
+    background-size: cover;
+    background-position: 0 -350px;
+}
+.konten{
+    padding: 25px;
+}
+.main{
+    width: 72%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: black solid 1px;
+    float: left;
+}
+.main .p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sidebar{
+    width: 25%;
+    float: right;
+    border: black solid 1px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.footer{
+    padding: 5px;
+    background-color: #333333;
+}
+.footer .copy{
+    color: #eaeaea;
+    text-align: center;
+}
+form{
+    width: 550px;
+
+}
+
+input{
+    width: 100%;
+    
+}
+/* textarea{
+    resize: vertical;
+    max-height: 100px; */
+
+}
+input, textarea{
+    outline: none;
+    border: 1px solid#ddd;
+
+}
+/* input:focus, textarea:focus{
+    box-shadow: 0 0 4px rgba(255,0,0, alpha);
+    border: 1px solid#ddd;
+    
+} */
+
+/* ::placeholder{
+    color: red;
+    opacity: 1;
+} */
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
